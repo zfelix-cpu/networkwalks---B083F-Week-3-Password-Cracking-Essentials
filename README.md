@@ -47,12 +47,6 @@ This task focuses on extracting document hashes via an online resource and perfo
    * **Cracked Password:** `good-luck`
    * **Validation:** Opened the encrypted PDF file, entered the cracked password `good-luck`, and verified the document successfully unlocked.
 
-#### 📸 Task 1 Evidence & Screenshots
-![Johnny GUI Cracking Success](screenshots/johnny_success.png)
-![Unlocked PDF Proof](screenshots/pdf1_unlocked.png)
-
-
-
 ---
 
 ### 🔹 TASK 2: Password Cracking with Networkwalks Tools
@@ -66,9 +60,6 @@ This task demonstrates an alternative browser-centric method using purely client
    * **Cracked Password:** `password1`
    * **Validation:** Opened the locked PDF file, entered the cracked password `password1`, and confirmed the PDF file opened successfully. The lab task was completed.
 
-#### 📸 Task 2 Evidence & Screenshots
-*(Insert your browser Hash Calculator/Cracker success screenshots and opened PDF proofs below)*
-<!-- Place screenshots here -->
 
 
 ---
@@ -76,7 +67,7 @@ This task demonstrates an alternative browser-centric method using purely client
 ## 📂 Repository Structure
 
 ```text
-├── hashes/                # Contains hash1.txt extracted from the documents
+├── hashes/                # Contains hash1.txt and has2.txt extracted from the documents
 ├── screenshots/           # Step-by-step visual proofs showing Johnny GUI and Web Cracker outputs
 ├── documents/             # Sample files (e.g., My Locked PDF1.pdf) used during the lab
 └── README.md              # Project documentation file (This file)
@@ -84,15 +75,7 @@ This task demonstrates an alternative browser-centric method using purely client
 
 ---
 
-## 📝 Submission Guidelines
 
-To ensure your practical lab is validated by the technical grading team and lead instructor [Waqas Karim (CCIE)](https://linkedin.com), complete the following checklist:
-
-* [ ] Place all required screenshots showing successful hash decryptions inside the `/screenshots` directory.
-* [ ] Verify that both recovered keys (**`good-luck`** and **`password1`**) are clearly highlighted in your final submission.
-* [ ] Ensure no personal or sensitive data is uploaded along with the test hashes.
-
----
 ## ⚖️ Legal & Ethical Disclaimer
 
 *All content, materials, and technical activities within this repository were performed strictly for educational purposes and authorized credential auditing inside lab sandboxes provided by Networkwalks Academy. Unauthorized testing or malicious use of these techniques against external targets without explicit prior written consent is strictly illegal.*
