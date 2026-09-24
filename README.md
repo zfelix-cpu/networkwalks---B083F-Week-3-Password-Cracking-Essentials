@@ -67,9 +67,9 @@ This task demonstrates an alternative browser-centric method using purely client
 ## 📂 Repository Structure
 
 ```text
+├── documents/             # Sample files (e.g., My Locked PDF1.pdf) used during the lab
 ├── hashes/                # Contains hash1.txt and has2.txt extracted from the documents
 ├── screenshots/           # Step-by-step visual proofs showing Johnny GUI and Web Cracker outputs
-├── documents/             # Sample files (e.g., My Locked PDF1.pdf) used during the lab
 └── README.md              # Project documentation file (This file)
 ```
 
